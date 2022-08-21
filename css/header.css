@@ -1,0 +1,54 @@
+header {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    box-shadow: 0 3px 8px gray;
+    background-color: white;
+    z-index: 100;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar {
+    width: 1124px;
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo img {
+    width: 119px;
+    height: 12px;
+}
+.button {
+    width: 78px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: black;
+    border-color: #E0E0E0;
+    margin-right: 16px;
+}
+.login img {
+    width: 19px;
+    height: 24px;
+}
+.login {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 576px) {
+    .bascket{
+        display: none;
+    }
+    .button {
+        margin: 0;
+    }
+}
